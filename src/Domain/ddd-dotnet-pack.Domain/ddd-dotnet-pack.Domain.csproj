@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
@@ -6,11 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ddd-dotnet-pack.Domain.Abstractions\ddd-dotnet-pack.Domain.Abstractions.csproj" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Exceptions\" />
+    <ProjectReference Include="..\ddd-dotnet-pack.Domain.Abstractions\ddd-dotnet-pack.Domain.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>
